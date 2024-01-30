@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Surprise</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #e6005c;
+        }
+
+        #message {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        #cta {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #yes {
+            background-color: #e6005c;
+            color: #fff;
+        }
+
+        #no {
+            background-color: #c0c0c0;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Happy Valentine's Day, [my love]!</h1>
+
+    <div id="message">
+        <p>Dear [Marysia],</p>
+        <p>sooo like i got this really good idea for valentine.</p>
+        <p>but idk if u like wanna be my valentine</p>
+        <p>soooo like....</p>
+        <p>Will you be my Valentine?</p>
+        <p>[Almar<3 aka youre lover boy]</p>
+    </div>
+
+    <div id="cta">
+        <button id="yes" onclick="showResponse('WOOOOHOOOOOO')">Yes, I'd love to! 💖</button>
+        <button id="no" onclick="showResponse('Just for the aesthetic')" disabled>nuh uh theres no color for a reason and (if u click it u will get virus.)</button>
+    </div>
+
+    <script>
+        function showResponse(response) {
+            alert("Your response: " + response);
+        }
+    </script>
+</body>
+
+</html>
